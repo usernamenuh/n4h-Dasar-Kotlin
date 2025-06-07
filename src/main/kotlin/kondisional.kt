@@ -27,6 +27,16 @@ fun main() {
 
     // practice
 
+    // Soal 1
+    val angka = 5
+    if (angka > 0) {     // Lebih dari
+        println("Positif")
+    } else if (angka < 0){ // Kurang Dari
+        println("Negatif")
+    } else {
+        println("Nol")
+    }
+
     // Soal 2
     val nilai = 85
 
@@ -59,6 +69,7 @@ fun main() {
         else -> println("Input Tidak Valid")
     }
 
+    // Soal no 5
     val warna = "Jingga"
     val hasil = when (warna) {
         "Merah" -> println("Bahaya")
@@ -66,4 +77,18 @@ fun main() {
         "Biru" -> println("Terang")
         else -> println("Warna tidak valid")
     }
+
+    // Soal 6
+    val a = 3
+    val b = 5
+    val c = 4
+
+    if (a == b && b == c) {
+        println("Segitiga Sama Sisi")
+    } else if (a == b || b == c || a == c) {
+        println("Segitiga Sama Kaki")
+    } else {
+        println("Segitiga Sembarang")
+    }
+
 }
