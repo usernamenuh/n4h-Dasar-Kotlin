@@ -16,7 +16,7 @@ fun main () {
     } while (a <= 10)
 
     // loop array
-    var buah = arrayOf("Apel", "Mangga", "Jeruk")
+    val buah = arrayOf("Apel", "Mangga", "Jeruk")
     for (item in buah) {
         println(item)
     }
@@ -28,7 +28,7 @@ fun main () {
     println("Buah ${buah[0]}")
     println(buah.first())
     println(buah.last())
-    println(buah.get(1))
+  /*  println(buah.get(1))*/
     println(buah.firstOrNull() ?: "Kosong" )
 
     // Practice
@@ -65,4 +65,10 @@ fun main () {
     }
 
     // Soal 6
+    val angka = listOf(10, 25, 40, 5)
+    for (item in angka) {
+        if (item >= 20) {
+            println(item)
+        }
+    }
 }
