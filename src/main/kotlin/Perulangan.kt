@@ -106,4 +106,29 @@ fun main () {
     val o = l.sum()
     println("Hasil $o")
 
+    // Soal 12
+    var input: String
+    var total = 0
+
+    do {
+        print("Masukkan angka (atau 0 untuk keluar): ")
+        input = readLine()!!
+        if (input.toIntOrNull() != null) {
+            total += input.toInt()
+        } else {
+            println("Input tidak valid. Silakan masukkan angka.")
+        }
+    } while (input != "0" && input.toIntOrNull() != null)
+
+    println("Total: $total")
+
+    // Soal 13
+
+    var siswa = listOf("Enuh", "Jingga", "Ontie")
+    for (jio in siswa) {
+        if (jio.length > 5) {
+            println(jio)
+        }
+    }
+
 }
