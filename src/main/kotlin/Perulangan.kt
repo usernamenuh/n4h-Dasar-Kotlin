@@ -71,4 +71,11 @@ fun main () {
             println(item)
         }
     }
+
+    // Soal 7
+    for (ganjil in 1..10) {
+        if (ganjil % 2 == 1) {
+            println(ganjil)
+        }
+    }
 }
