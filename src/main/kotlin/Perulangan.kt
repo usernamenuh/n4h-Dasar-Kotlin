@@ -22,7 +22,7 @@ fun main () {
     }
 
     for (i in buah.indices) {
-      *//*  println("index $i = ${buah[i]}")*//*
+        println("index $i = ${buah[i]}")
         println("buah pertama $i = ${buah[i]}")
     }
     println("Buah ${buah[0]}")
