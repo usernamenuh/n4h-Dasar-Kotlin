@@ -51,9 +51,18 @@ fun main () {
         belajar++
     }
 
+    // Soal 4
     var cetak = 1
     do {
         println(cetak)
         cetak++
     } while (cetak <= 5)
+
+    // Soal 5
+    val hewan = listOf("Kucing", "Anjing", "Burung")
+    for (item in hewan) {
+        println(item)
+    }
+
+    // Soal 6
 }
