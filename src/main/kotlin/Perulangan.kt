@@ -16,7 +16,7 @@ fun main () {
     } while (a <= 10)
 
     // loop array
-    val buah = arrayOf("Apel", "Mangga", "Jeruk")
+  /*  val buah = arrayOf("Apel", "Mangga", "Jeruk")
     for (item in buah) {
         println(item)
     }
@@ -28,8 +28,8 @@ fun main () {
     println("Buah ${buah[0]}")
     println(buah.first())
     println(buah.last())
-  /*  println(buah.get(1))*/
-    println(buah.firstOrNull() ?: "Kosong" )
+  *//*  println(buah.get(1))*//*
+    println(buah.firstOrNull() ?: "Kosong" )*/
 
     // Practice
     // Soal 1
@@ -88,4 +88,10 @@ fun main () {
             println("Tidak lulus")
         }
     }
+
+    // Soal 9
+    val buah = listOf("Apel", "Jeruk", "Mangga")
+        for (b in 0 until buah.size) {
+            println("Index $b = ${buah[b]}")
+        }
 }
