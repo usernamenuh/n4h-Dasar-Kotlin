@@ -78,4 +78,14 @@ fun main () {
             println(ganjil)
         }
     }
+
+    // Soal 8
+    val nilai = listOf(80, 90, 70, 100)
+    for (item in nilai) {
+        if (item >= 75) {
+            println("Lulus")
+        } else {
+            println("Tidak lulus")
+        }
+    }
 }
