@@ -1,5 +1,5 @@
 fun main () {
-    for (i in 1..5 ) {
+   for (i in 1..5 ) {
         println("Angka ke-$i")
     }
 
@@ -22,7 +22,7 @@ fun main () {
     }
 
     for (i in buah.indices) {
-      /*  println("index $i = ${buah[i]}")*/
+      *//*  println("index $i = ${buah[i]}")*//*
         println("buah pertama $i = ${buah[i]}")
     }
     println("Buah ${buah[0]}")
@@ -30,4 +30,23 @@ fun main () {
     println(buah.last())
     println(buah.get(1))
     println(buah.firstOrNull() ?: "Kosong" )
+
+    // Practice
+    // Soal 1
+    for (a in 1..10) {
+        println("Angka ke-$a")
+    }
+
+    // Soal 2
+    for (angka in 1..20) {
+        if (angka % 2 == 0) {
+            println("Angka ke-$angka")
+        }
+    }
+
+    var  belajar = 1
+    while (belajar <= 5) {
+        println("belajar kotlin")
+        belajar++
+    }
 }
