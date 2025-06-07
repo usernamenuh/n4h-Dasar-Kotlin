@@ -20,4 +20,14 @@ fun main () {
     for (item in buah) {
         println(item)
     }
+
+    for (i in buah.indices) {
+      /*  println("index $i = ${buah[i]}")*/
+        println("buah pertama $i = ${buah[i]}")
+    }
+    println("Buah ${buah[0]}")
+    println(buah.first())
+    println(buah.last())
+    println(buah.get(1))
+    println(buah.firstOrNull() ?: "Kosong" )
 }
