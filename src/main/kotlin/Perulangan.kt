@@ -94,4 +94,10 @@ fun main () {
         for (b in 0 until buah.size) {
             println("Index $b = ${buah[b]}")
         }
+
+    // Soal 10
+    for (perkalian in 1..10) {
+        val hasil = 2 * perkalian
+        println(hasil)
+    }
 }
