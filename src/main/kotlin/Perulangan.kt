@@ -44,9 +44,16 @@ fun main () {
         }
     }
 
+    // Soal 3
     var  belajar = 1
     while (belajar <= 5) {
         println("belajar kotlin")
         belajar++
     }
+
+    var cetak = 1
+    do {
+        println(cetak)
+        cetak++
+    } while (cetak <= 5)
 }
