@@ -100,4 +100,10 @@ fun main () {
         val hasil = 2 * perkalian
         println("2 x $perkalian = $hasil")
     }
+
+    // Soal 11
+    val l = listOf(1, 2, 3, 4, 5)
+    val o = l.sum()
+    println("Hasil $o")
+
 }
