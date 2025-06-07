@@ -98,6 +98,6 @@ fun main () {
     // Soal 10
     for (perkalian in 1..10) {
         val hasil = 2 * perkalian
-        println(hasil)
+        println("2 x $perkalian = $hasil")
     }
 }
