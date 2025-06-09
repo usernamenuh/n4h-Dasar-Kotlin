@@ -1,3 +1,4 @@
+/*
 fun produk(nama: String?): String? {
     return nama?.let { "Produk $it telah dibuat" }
 }
@@ -20,4 +21,4 @@ fun main() {
 
     println(produk2.nama)
     println(produk2.deskripsi)
-}
+}*/
